@@ -11,7 +11,7 @@
 
 3 - you'll have to run the code twice.
     - run the code the first time to create the resources.
-    - copy the ip addresses from the terminal output and paste in the security groups accordingly and run it again
+    - copy the ip addresses from the terminal output and paste in the security groups module accordingly and run it again
 
 
 
