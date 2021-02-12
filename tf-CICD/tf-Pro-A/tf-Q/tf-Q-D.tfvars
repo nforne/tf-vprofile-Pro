@@ -1,0 +1,8 @@
+prov-region= "us-east-1"
+p-vpc-cidr= "10.0.0.0/16"
+my-ipc= "your ip here"
+i-je-ami= "ami-03d315ad33b9d49c4"
+i-nx-ami= "ami-0c8a15d90f5ef9df4"
+i-sq-ami= "ami-03d315ad33b9d49c4"
+i-p-kp= "your key pair name here"
+i-je-nx-sq-type= "t2.medium"

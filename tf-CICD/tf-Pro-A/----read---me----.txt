@@ -1,0 +1,14 @@
+0 - the working directory is tf-Pro-A
+
+    terraform init --var-file=tf-Q/tf-Q-D.tfvars
+    terraform plan --var-file=tf-Q/tf-Q-D.tfvars
+    terraform apply --var-file=tf-Q/tf-Q-D.tfvars
+    terraform destroy --var-file=tf-Q/tf-Q-D.tfvars
+
+1 - in the provider file, remove the profile line or pass your profile there
+
+2 - adjust the backend
+
+3 - you'll have to run the code twice.
+    - run the code the first time to create the resources.
+    - copy the ip addresses from the terminal output and paste in the security groups accordingly and run it again
